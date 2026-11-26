@@ -1,0 +1,20 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.pyc
+backend/media/
+backend/db.sqlite3
+
+# Flutter / Android (el detalle está en mobile/.gitignore)
+.dart_tool/
+build/
+
+# IDE / SO
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
